@@ -1,5 +1,14 @@
-print("Hi")
+from ucimlrepo import fetch_ucirepo
 
-a = 0;
+# fetch dataset
+wine = fetch_ucirepo(id=109)
 
-print(a)
+# data (as pandas dataframes)
+X = wine.data.features
+y = wine.data.targets
+
+# metadata
+print(wine.metadata)
+
+# variable information
+print(wine.variables)
