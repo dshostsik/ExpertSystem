@@ -56,8 +56,5 @@ def main():
 
     plot_confusion_matrix_custom(conf_matrix, class_names)
 
-    # plot_roc_curve(rf, X_test, y_test)
-
-
 if __name__ == "__main__":
     main()
