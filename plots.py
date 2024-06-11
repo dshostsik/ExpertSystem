@@ -3,7 +3,6 @@ import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
 from sklearn.tree import export_graphviz
-from sklearn.metrics import roc_curve, auc
 
 
 def plot_feature_importance(rf, feature_names, file_name='raport/feature_importance.png'):
