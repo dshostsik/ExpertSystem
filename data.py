@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = 'wine.data'
+file_path = 'data/wine.data'
 
 data = pd.read_csv(file_path, sep=',', header=None)
 
